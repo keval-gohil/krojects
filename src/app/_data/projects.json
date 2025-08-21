@@ -1,0 +1,83 @@
+{
+  "Industrial / Job Projects": [
+    {
+      "name": "Project One",
+      "description": "This is the description of project one.",
+      "images": [
+        "/images/projects/genius.jpg",
+        "/images/projects/amazing-spider-man-2.jpg"
+      ],
+      "link": "https://example.com",
+      "linkLabel": "Visit"
+    },
+    {
+      "name": "Project Two",
+      "description": "This is the description of project two.",
+      "images": ["/images/projects/genius.jpg"],
+      "link": "",
+      "linkLabel": "Label2"
+    },
+    {
+      "name": "Project One",
+      "description": "This is the description of project one.",
+      "images": [
+        "/images/projects/genius.jpg",
+        "/images/projects/amazing-spider-man-2.jpg"
+      ],
+      "link": "https://example.com",
+      "linkLabel": "Visit"
+    },
+    {
+      "name": "Project Two",
+      "description": "This is the description of project two.",
+      "images": ["/images/projects/genius.jpg"],
+      "link": "",
+      "linkLabel": "Label2"
+    },
+    {
+      "name": "Project One",
+      "description": "This is the description of project one.",
+      "images": [
+        "/images/projects/genius.jpg",
+        "/images/projects/amazing-spider-man-2.jpg"
+      ],
+      "link": "https://example.com",
+      "linkLabel": "Visit"
+    },
+    {
+      "name": "Project Two",
+      "description": "This is the description of project two.",
+      "images": ["/images/projects/genius.jpg"],
+      "link": "",
+      "linkLabel": "Label2"
+    }
+  ],
+  "Freelancing Projects": [
+    {
+      "name": "Client Website",
+      "description": "Full-stack website for freelance client.",
+      "images": ["/images/projects/genius.jpg"],
+      "link": "https://example.com",
+      "linkLabel": "Live Demo"
+    },
+    {
+      "name": "Mobile App",
+      "description": "React Native app for freelancing client.",
+      "images": ["/images/projects/genius.jpg"]
+    }
+  ],
+  "Own Projects": [
+    {
+      "name": "Portfolio Website",
+      "description": "My personal portfolio built with Next.js.",
+      "images": ["/images/projects/genius.jpg"],
+      "link": "https://example.com",
+      "linkLabel": "Portfolio"
+    },
+    {
+      "name": "Startup MVP",
+      "description": "Prototype for a SaaS product.",
+      "images": ["/images/projects/genius.jpg"]
+    }
+  ]
+}
