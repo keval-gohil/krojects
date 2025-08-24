@@ -164,16 +164,16 @@ const MainContent = () => {
                         </div>
 
                         <div className={styles.imgNav}>
-                            <button onClick={prevImage} disabled={selectedImageIndex === 0}>⬅</button>
-                            <button onClick={nextImage} disabled={selectedImageIndex === currentProject.images.length - 1}>➡</button>
+                            <button onClick={prevImage} disabled={selectedImageIndex === 0}>⇐</button>
+                            <button onClick={nextImage} disabled={selectedImageIndex === currentProject.images.length - 1}>⇒</button>
                         </div>
 
                         <h5 className={styles.underline}>{currentProject.name}</h5>
                         <p className={styles.underline}>{currentProject.description}</p>
 
                         <div className={styles.projectNav}>
-                            <button onClick={prevProject} disabled={selectedIndex === 0}>⬅ Prev Project</button>
-                            <button onClick={nextProject} disabled={selectedIndex === projectsData[selectedCategory].length - 1}>Next Project ➡</button>
+                            <button onClick={prevProject} disabled={selectedIndex === 0}>⇐ Prev Project</button>
+                            <button onClick={nextProject} disabled={selectedIndex === projectsData[selectedCategory].length - 1}>Next Project ⇒</button>
                         </div>
 
                     </div>
