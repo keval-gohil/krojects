@@ -2,8 +2,6 @@
     width: 90%;
     max-width: 1600px;
     margin: 0 auto;
-    padding: 5rem 0;
-    padding-top: 0;
 }
 
 .main header {
@@ -28,6 +26,23 @@
 
 .main header a:hover {
     text-decoration: underline;
+}
+
+.main footer {
+    text-align: center;
+    background: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-top: .15rem solid transparent;
+    border-image: linear-gradient(90deg, rgba(56, 2, 155, 0), #ffffff41, rgba(56, 2, 155, 0));
+    border-image-slice: 1;
+    padding: 1rem;
+    margin-top: 3.5rem;
+}
+
+.main footer h3 {
+    font-size: 1.2rem;
+    color: #ffffff73;
 }
 
 .main h2 {
@@ -120,7 +135,9 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,32 +145,107 @@
 }
 
 .modalContent {
-    background: #fff;
-    padding: 20px;
-    border-radius: 12px;
+
     width: 90%;
-    max-width: 400px;
+    max-width: 700px;
+    max-height: 90vh;
+    /* never overflow screen */
     position: relative;
     text-align: center;
+    overflow: hidden;
+    /* prevent modal itself from overflowing */
+    display: flex;
+    flex-direction: column;
+    background: #ffffff75;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: .2rem solid transparent;
+    border-image: linear-gradient(90deg, #ffffff41);
+    border-image-slice: 1;
+}
+
+.modalImageWrapper {
+    width: 100%;
+    max-height: 80vh;
+    overflow: auto;
+    /* 👈 allow scroll instead of hidden */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalImage {
+    max-width: 100%;
+    max-height: 400px;
+    /* fully visible inside modal */
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    cursor: grab;
+    border-radius: 0;
+}
+
+.modalContent h5 {
+    font-size: 1.1rem;
+    margin-top: .5rem;
+}
+
+.modalContent p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .closeBtn {
     position: absolute;
     top: 10px;
     right: 15px;
-    background: transparent;
+    border: .2rem solid #00000017;
+    padding: .2rem .5rem;
+    border-radius: 50%;
     color: #000;
-    border: none;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     font-size: 20px;
     cursor: pointer;
 }
 
+.closeBtn:hover {
+    border: .2rem solid #0000007e;
+    color: red;
+}
+
+.imgNav,
+.projectNav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
 .imgNav button,
 .projectNav button {
-    margin: 5px;
-    padding: 5px 10px;
+    padding: 8px 14px;
+    border: 1px solid #00000040;
+    background: rgba(0, 0, 0, 0.1);
+    color: #000000;
+    border-radius: 6px;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
+
+.imgNav button:hover,
+.projectNav button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    border-color: #00000080;
+}
+
+.imgNav button:disabled,
+.projectNav button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 
 
 @media (max-width: 1400px) {
@@ -174,12 +266,61 @@
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .main header h1 {
+        font-size: 1.3rem;
+    }
+
+    .main header a {
+        font-size: .9rem;
+        color: #0d6efd;
+    }
+
+    .main footer h3 {
+        font-size: .9rem;
+    }
+
+    .main h2 {
+        margin-top: 3rem;
+        margin-bottom: 1.7rem;
+        font-size: 1.1rem;
+    }
+
+    .grid {
+        gap: 17px;
+    }
+
+    .card-title {
+        margin-top: .7rem;
+        font-size: .9rem;
+
+    }
+
+    .card-text {
+        margin-top: .4rem;
+        font-size: .85rem;
+    }
+
+    .projectLink,
+    .noLink {
+        margin-top: auto;
+        display: inline-block;
+        margin-top: .5rem;
+        text-decoration: none;
+        font-size: .9rem;
+    }
+
+
 }
 
 /* Up to 500px */
 @media (max-width: 500px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cardImage {
+        height: 150px;
     }
 }
 
@@ -188,5 +329,9 @@
     .grid {
         grid-template-columns: repeat(1, 1fr);
         /* Could stay same, or adjust padding/margin */
+    }
+
+    .cardImage {
+        height: 180px;
     }
 }

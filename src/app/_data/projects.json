@@ -4,8 +4,8 @@
       "name": "Project One",
       "description": "This is the description of project one.",
       "images": [
-        "/images/projects/genius.jpg",
-        "/images/projects/amazing-spider-man-2.jpg"
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053494/horoscope-1_suna1d.png",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053496/kidseco-1_e6bu2c.png"
       ],
       "link": "https://example.com",
       "linkLabel": "Visit"
@@ -21,8 +21,8 @@
       "name": "Project One",
       "description": "This is the description of project one.",
       "images": [
-        "/images/projects/genius.jpg",
-        "/images/projects/amazing-spider-man-2.jpg"
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053496/kidseco-1_e6bu2c.png",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053494/horoscope-1_suna1d.png"
       ],
       "link": "https://example.com",
       "linkLabel": "Visit"

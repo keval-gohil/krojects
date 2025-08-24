@@ -56,17 +56,3 @@ h2 span::-moz-selection {
 ::-webkit-scrollbar {
   display: none;
 }
-
-
-
-@media (max-width: 1000px) {
-  html {
-    font-size: 80%;
-  }
-}
-
-@media (max-width: 600px) {
-  html {
-    font-size: 98%;
-  }
-}
