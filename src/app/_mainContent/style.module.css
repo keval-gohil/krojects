@@ -225,11 +225,15 @@
 
 .imgNav button,
 .projectNav button {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
     padding: 8px 14px;
     border: 1px solid #00000040;
     background: rgba(0, 0, 0, 0.1);
     color: #000000;
     border-radius: 6px;
+    line-height: 0;
     cursor: pointer;
     transition: all 0.2s ease;
     font-family: inherit;
@@ -243,7 +247,7 @@
 
 .imgNav button:disabled,
 .projectNav button:disabled {
-    opacity: 0.5;
+    opacity: 0.3;
     cursor: not-allowed;
 }
 

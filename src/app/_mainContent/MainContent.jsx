@@ -164,16 +164,22 @@ const MainContent = () => {
                         </div>
 
                         <div className={styles.imgNav}>
-                            <button onClick={prevImage} disabled={selectedImageIndex === 0}>⇐</button>
-                            <button onClick={nextImage} disabled={selectedImageIndex === currentProject.images.length - 1}>⇒</button>
+                            <button onClick={prevImage} disabled={selectedImageIndex === 0}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20.328 11v2H7.5l3.243 3.243l-1.415 1.414L3.672 12l5.656-5.657l1.415 1.414L7.5 11z" /></svg></button>
+                            <button onClick={nextImage} disabled={selectedImageIndex === currentProject.images.length - 1}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m15.038 6.343l-1.411 1.418l3.27 3.255l-13.605.013l.002 2l13.568-.013l-3.215 3.23l1.417 1.41l5.644-5.67z" /></svg></button>
                         </div>
 
                         <h5 className={styles.underline}>{currentProject.name}</h5>
                         <p className={styles.underline}>{currentProject.description}</p>
 
                         <div className={styles.projectNav}>
-                            <button onClick={prevProject} disabled={selectedIndex === 0}>⇐ Prev Project</button>
-                            <button onClick={nextProject} disabled={selectedIndex === projectsData[selectedCategory].length - 1}>Next Project ⇒</button>
+                            <button onClick={prevProject} disabled={selectedIndex === 0}>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20.328 11v2H7.5l3.243 3.243l-1.415 1.414L3.672 12l5.656-5.657l1.415 1.414L7.5 11z" /></svg>
+                                Prev Project
+                            </button>
+                            <button onClick={nextProject} disabled={selectedIndex === projectsData[selectedCategory].length - 1}>
+                                Next Project
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m15.038 6.343l-1.411 1.418l3.27 3.255l-13.605.013l.002 2l13.568-.013l-3.215 3.23l1.417 1.41l5.644-5.67z" /></svg>
+                            </button>
                         </div>
 
                     </div>
