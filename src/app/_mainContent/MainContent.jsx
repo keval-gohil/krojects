@@ -114,7 +114,7 @@ const MainContent = () => {
                                             {project.linkLabel}
                                         </a>
                                     ) : (
-                                        <span className={styles.noLink}>No link</span>
+                                        <span className={styles.noLink}>{project.linkLabel}</span>
                                     )}
                                 </div>
                             ))}
@@ -170,6 +170,18 @@ const MainContent = () => {
 
                         <h5 className={styles.underline}>{currentProject.name}</h5>
                         <p className={styles.underline}>{currentProject.description}</p>
+                        {currentProject.link && currentProject.linkLabel ? (
+                            <a
+                                href={currentProject.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                className={styles.projectLink}
+                            >
+                                {currentProject.linkLabel}
+                            </a>
+                        ) : (
+                            <span className={styles.noLink}>{currentProject.linkLabel}</span>
+                        )}
 
                         <div className={styles.projectNav}>
                             <button onClick={prevProject} disabled={selectedIndex === 0}>

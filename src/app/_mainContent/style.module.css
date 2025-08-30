@@ -59,6 +59,7 @@
 .grid {
     display: grid;
     gap: 20px;
+    row-gap: 30px;
     grid-template-columns: repeat(5, 1fr);
 }
 
@@ -96,13 +97,13 @@
 }
 
 .card-title {
-    margin-top: 1rem;
+    margin-top: .7rem;
     font-size: 1rem;
 
 }
 
 .card-text {
-    margin-top: .7rem;
+    margin: .4rem 0;
     font-size: 1rem;
 }
 
@@ -120,7 +121,6 @@
 .noLink {
     margin-top: auto;
     display: inline-block;
-    margin-top: .7rem;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -145,7 +145,6 @@
 }
 
 .modalContent {
-
     width: 90%;
     max-width: 700px;
     max-height: 90vh;
@@ -192,7 +191,7 @@
 
 .modalContent p {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: .3rem;
 }
 
 .closeBtn {
@@ -208,6 +207,7 @@
     backdrop-filter: blur(10px);
     font-size: 20px;
     cursor: pointer;
+    z-index: 10;
 }
 
 .closeBtn:hover {
@@ -251,6 +251,10 @@
     cursor: not-allowed;
 }
 
+.modalContent a,
+.modalContent span {
+    margin: 0 auto;
+}
 
 
 @media (max-width: 1400px) {
@@ -314,6 +318,22 @@
         text-decoration: none;
         font-size: .9rem;
     }
+
+    .modalContent h5 {
+        font-size: 1rem;
+        margin-top: .5rem;
+    }
+
+    .modalContent p {
+        font-size: .9rem;
+        margin-bottom: .3rem;
+    }
+
+    .modalContent a,
+    .modalContent span {
+        margin: 0 auto;
+    }
+
 
 
 }

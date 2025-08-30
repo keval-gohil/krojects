@@ -1,55 +1,201 @@
 {
   "Industrial / Job Projects": [
     {
-      "name": "Project One",
-      "description": "This is the description of project one.",
+      "name": "Horoscope Site",
+      "description": "Built horoscope and astrology book-selling platforms with HTML, CSS, JS, and WordPress.",
       "images": [
-        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053494/horoscope-1_suna1d.png",
-        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053496/kidseco-1_e6bu2c.png"
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756062363/horoscope-1_enzi0g.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756062364/horoscope-2_w5kgsw.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756062363/horoscope-3_zsxmxd.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756062493/horoscope-4_mz8s9y.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756062364/horoscope-5_t4npsh.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756062364/horoscope-6_xda6tn.jpg"
       ],
-      "link": "https://example.com",
-      "linkLabel": "Visit"
-    },
-    {
-      "name": "Project Two",
-      "description": "This is the description of project two.",
-      "images": ["/images/projects/genius.jpg"],
       "link": "",
-      "linkLabel": "Label2"
+      "linkLabel": "Production"
     },
     {
-      "name": "Project One",
-      "description": "This is the description of project one.",
+      "name": "Kid Stuffs E-commerce",
+      "description": "Developed Kid Stuffs e-commerce platform using React.js, Redux, and Axios. ",
       "images": [
-        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053496/kidseco-1_e6bu2c.png",
-        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756053494/horoscope-1_suna1d.png"
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140612/kidseco-1_dphko1.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140611/kidseco-2_mvic3f.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140612/kidseco-4_pnqrty.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140613/kidseco-3_bi99qa.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140614/kidseco-5_jd0fn5.jpg"
       ],
-      "link": "https://example.com",
-      "linkLabel": "Visit"
-    },
-    {
-      "name": "Project Two",
-      "description": "This is the description of project two.",
-      "images": ["/images/projects/genius.jpg"],
       "link": "",
-      "linkLabel": "Label2"
+      "linkLabel": "Production"
     },
     {
-      "name": "Project One",
-      "description": "This is the description of project one.",
+      "name": "Kothari departmental store",
+      "description": "Built Kothari Departmental Store website using HTML, CSS, JavaScript, and WordPress. ",
       "images": [
-        "/images/projects/genius.jpg",
-        "/images/projects/amazing-spider-man-2.jpg"
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140615/kothari-1_xm30xc.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140614/kothari-2_kzjbkd.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140615/kothari-3_vcum1t.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756140629/kothari-4_llxpux.jpg"
       ],
-      "link": "https://example.com",
-      "linkLabel": "Visit"
+      "link": "https://mykothari.com/",
+      "linkLabel": "mykothari.com"
     },
     {
-      "name": "Project Two",
-      "description": "This is the description of project two.",
-      "images": ["/images/projects/genius.jpg"],
+      "name": "Savvvyy Insurance admin",
+      "description": "Developed Savvvyy Insurance admin panel using React, Redux, and Axios.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756143120/savvvyy-admin-2_cfdshx.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756143120/savvvyy-admin-4_njufzf.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756143120/savvvyy-admin-3_dtxeno.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756143120/savvvyy-admin-1_rwty30.jpg"
+      ],
       "link": "",
-      "linkLabel": "Label2"
+      "linkLabel": "Crucial"
+    },
+    {
+      "name": "Savvvyy Insurance client",
+      "description": "Developed Savvvyy Insurance client panel using React, Redux, and Axios.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484896/savvvyy-client-1_cxp3n6.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484895/savvvyy-client-2_b3qbgm.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484895/savvvyy-client-3_rnoulu.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484896/savvvyy-client-4_wdz2by.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Crucial"
+    },
+    {
+      "name": "Savvvyy Insurance hr",
+      "description": "Savvvyy Insurance HR panel similar to the client panel, but HR cannot add other HRs or policies. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484897/savvvyy-hr-1_dpgq86.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484895/savvvyy-client-2_b3qbgm.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484895/savvvyy-client-3_rnoulu.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484896/savvvyy-client-4_wdz2by.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Crucial"
+    },
+    {
+      "name": "Savvvyy Insurance employee",
+      "description": "Developed Savvvyy Insurance employee panel using React, Redux, and Axios. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484897/savvvyy-emp-4_s8nagk.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484897/savvvyy-emp-3_redp1k.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484896/savvvyy-emp-1_s3vynu.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756484896/savvvyy-emp-2_h4ouz5.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Crucial"
+    },
+    {
+      "name": "Totally Flawless Artist front",
+      "description": "Developed Totally Flawless Artist frontend using React, Bootstrap and Axios. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756578045/f-front-1_jukoup.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577951/f-front-2_zt0s5h.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577950/f-front-3_j4a15k.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577951/f-front-4_s9askg.jpg"
+      ],
+      "link": "https://totallyflawless.co/",
+      "linkLabel": "totallyflawless.co"
+    },
+    {
+      "name": "Flawless Admin Panel",
+      "description": "Developed Flawless admin panel for hairstyle and makeup bookings using React, Redux, and Axios. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577952/f-admin-1_igxdi4.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577951/f-admin-4_slsatk.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577951/f-admin-5_a9vvbz.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577952/f-admin-2_ombusn.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756577951/f-admin-6_hqmkss.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756578045/f-admin-3_zm62l4.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Crucial"
+    },
+    {
+      "name": "Sirage Parents web app",
+      "description": "Built for child attendance, grades, books etc. tracking using React, Redux, and Axios.  ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756580469/sirage-1_tqifpy.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756580468/sirage-2_rxsgh3.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756580468/sirage-3_tcseob.jpg"
+      ],
+      "link": "https://sirageparents.com/",
+      "linkLabel": "sirageparents.com"
+    },
+    {
+      "name": "Sirage app",
+      "description": "For parents, children, teachers, and admin with React Native/Expo, Redux, and Khidmty login.  ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581221/sirage-app-1_ka45ck.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581206/sirage-app-3_zlcrzp.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581205/sirage-app-2_okqj01.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581205/sirage-app-4_tmtoay.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581205/sirage-app-5_ystlbg.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581205/sirage-app-6_xal2nu.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756581205/sirage-app-7_yogu5c.jpg"
+      ],
+      "link": "https://play.google.com/store/apps/details?id=com.itirim.sirage&hl=en_IN&pli=1",
+      "linkLabel": "play.google.com/sirage"
+    },
+    {
+      "name": "SilverX Billing software",
+      "description": "For gold and silver businesses using React, Redux, Axios, and Service Workers.   ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756583280/silverx-1_h5ml2y.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756583280/silverx-2_ot1jgx.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756583279/silverx-3_gvskco.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756583279/silverx-4_fb6tdx.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756583279/silverx-5_jd8wbc.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": "Unchained Summit Series",
+      "description": "Created Unchained Summit series #1 Web 3.0 events platform using WordPress custom template.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584888/uns-1_bvc9hy.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584889/uns-2_pf1cmx.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584888/uns-3_bl061c.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584888/uns-4_uo4qpa.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584887/uns-6_v588h3.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584887/uns-5_ufade1.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756584887/uns-7_mzxfnz.jpg"
+      ],
+      "link": "https://unchainedsummit.com/",
+      "linkLabel": "unchainedsummit.com"
+    },
+    {
+      "name": "Unchained Summit dubai",
+      "description": "Created Unchained Summit dubai #1 Web 3.0 events platform using WordPress custom template.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586406/uns-dubai-1_pihplq.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586404/uns-dubai-2_z0bwea.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586404/uns-dubai-3_vpir9c.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586405/uns-dubai-4_terwfl.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586404/uns-dubai-5_aa0pt7.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586405/uns-dubai-6_jynfsq.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756586403/uns-dubai-7_lbazih.jpg"
+      ],
+      "link": "https://unchainedsummit.com/dubai",
+      "linkLabel": "unchainedsummit.com/dubai"
+    },
+    {
+      "name": "Aeternuminc Tech Events",
+      "description": "Created Aeternuminc Tech Events website using WordPress with custom templates and Elementor.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587513/aet-1_uqin5p.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587518/aet-2_kzjtwf.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587513/aet-3_fujdwk.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587513/aet-4_gd0gxl.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587512/aet-5_w9o0gx.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587511/aet-6_lujqqf.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1756587511/aet-7_fzgabf.jpg"
+      ],
+      "link": "https://aeternuminc.com/",
+      "linkLabel": "aeternuminc.com"
     }
   ],
   "Freelancing Projects": [
