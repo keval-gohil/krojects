@@ -57,13 +57,16 @@
 }
 
 .grid {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    /* allows wrapping to the next row */
     gap: 20px;
     row-gap: 30px;
-    grid-template-columns: repeat(5, 1fr);
 }
 
 .card {
+    flex: 1 1 calc(20% - 20px);
+    /* 5 per row by default */
     display: flex;
     flex-direction: column;
 
@@ -258,22 +261,22 @@
 
 
 @media (max-width: 1400px) {
-    .grid {
-        grid-template-columns: repeat(4, 1fr);
+    .card {
+        flex: 1 1 calc(25% - 20px);
     }
 }
 
 /* Up to 1000px */
 @media (max-width: 1000px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
+    .card {
+        flex: 1 1 calc(33.33% - 20px);
     }
 }
 
 /* Up to 700px */
 @media (max-width: 700px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+    .card {
+        flex: 1 1 calc(50% - 20px);
     }
 
     .main header h1 {
@@ -340,8 +343,8 @@
 
 /* Up to 500px */
 @media (max-width: 500px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+    .card {
+        flex: 1 1 calc(50% - 20px);
     }
 
     .cardImage {
@@ -351,9 +354,9 @@
 
 /* Up to 350px - optional override */
 @media (max-width: 350px) {
-    .grid {
-        grid-template-columns: repeat(1, 1fr);
-        /* Could stay same, or adjust padding/margin */
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
     }
 
     .cardImage {

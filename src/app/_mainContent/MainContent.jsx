@@ -96,7 +96,7 @@ const MainContent = () => {
                                     <Image
                                         src={project.images[0]}
                                         alt={project.name}
-                                        width={400}
+                                        width={300}
                                         height={250}
                                         className={styles.cardImage}
                                     />
