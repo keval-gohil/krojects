@@ -196,34 +196,166 @@
       ],
       "link": "https://aeternuminc.com/",
       "linkLabel": "aeternuminc.com"
+    },
+    {
+      "name": "Construction Management A",
+      "description": "Built Construction Management Admin panel using Next.js/React, Redux, and Axios. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757178132/CMA-1_atoe4n.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757178132/CMA-3_wqh0cl.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757178134/CMA-2_autfen.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757178139/CMA-4_cg4oss.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": "Construction Management S",
+      "description": "Built Construction Management Supervisor panel using Next.js/React, Redux, and Axios. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757179470/CMS-1_d5vvih.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757179471/CMS-2_cfp7pm.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757179470/CMS-3_fefx9g.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": "Construction Management U",
+      "description": "Built Construction Management User Front panel using Next.js/React, Redux, and Axios.   ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757180732/CMU-1_rhwh2r.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757180733/CMU-2_jkkrjf.jpgg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757180733/CMU-3_wfcxjc.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757180733/CMU-4_atqoyc.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757180734/CMU-5_fymdyo.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": " Balaji Cera Filters",
+      "description": "Developed Balaji Cera Filters product-selling CMS using WordPress with custom templates.  ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185629/balaji-cf-1_k2is85.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185630/balaji-cf-2_ncn8cr.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185630/balaji-cf-3_lzdjsu.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185631/balaji-cf-4_ril8qa.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185630/balaji-cf-5_m1xngy.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185631/balaji-cf-6_nzt4fo.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757185631/balaji-cf-7_e1detc.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": "Tow Fro Boom Wrecker",
+      "description": "Tow Fro Boom Wrecker machine rental platform admin, vendor, & user panels using HTML, CSS, Filament.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757187185/two-fro-1_nof7al.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757187184/two-fro-2_csd13h.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757187185/two-fro-3_cf2bfo.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757187185/two-fro-4_uljwmb.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757187186/two-fro-5_ib7dsj.jpg"
+      ],
+      "link": "https://rental-account.uatdemo.in/",
+      "linkLabel": "rental-account.uatdemo.in"
+    },
+    {
+      "name": " Ace dating app",
+      "description": "Developed Ace dating app using React Native, Redux, and Axios with a perfect match algorithm.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190483/ace-1_mjsh0v.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190483/ace-2_zllzmw.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190484/ace-3_mlflwm.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190513/ace-4_sjqyob.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190548/ace-5_azjmcb.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190549/ace-6_sm4gqz.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190550/ace-7_ozzchg.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190552/ace-8_rusa86.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757190553/ace-9_iwieo5.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": " Why Knot Me",
+      "description": "Built Why Knot Me international dating app using React Native, Redux, and Axios.  ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191088/wkm-1_arsqlh.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191088/wkm-2_lf74tv.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191088/wkm-3_uqmycl.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191089/wkm-4_cm0vsx.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191094/wkm-5_wgyvqv.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191094/wkm-6_fzvdtz.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191095/wkm-7_oces04.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757191097/wkm-8_lwy1wj.jpg"
+      ],
+      "link": "",
+      "linkLabel": "Production"
+    },
+    {
+      "name": " Kings Pharmacy Online",
+      "description": "Developed Kings Pharmacy UK online/offline medical store using HTML, CSS, PHP, and Laravel. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757195031/kp-1_znguox.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757195031/kp-2_qfijlq.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757195040/kp-3_td6aar.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757195040/kp-4_yex6q3.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757195041/kp-5_xevji6.jpg"
+      ],
+      "link": "https://kingspharmacyonline.zetrixweb.com/",
+      "linkLabel": "kingspharmacyonline.com"
     }
   ],
   "Freelancing Projects": [
     {
-      "name": "Client Website",
-      "description": "Full-stack website for freelance client.",
-      "images": ["/images/projects/genius.jpg"],
-      "link": "https://example.com",
-      "linkLabel": "Live Demo"
+      "name": " MDA Drug Testing Kits",
+      "description": "Built MDA Drug Testing Kits (UK) medical site using HTML, CSS, JavaScript, and WordPress.  ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197635/UKDT-1_iyj1h9.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197628/UKDT-2_ovtfqj.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197636/UKDT-3_oixhbk.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197639/UKDT-4_locqv5.jpg"
+      ],
+      "link": "https://drugtests.co.uk/",
+      "linkLabel": "drugtests.co.uk"
     },
     {
-      "name": "Mobile App",
-      "description": "React Native app for freelancing client.",
-      "images": ["/images/projects/genius.jpg"]
+      "name": " CCFM Artist",
+      "description": "Developed CCFM Artist Audio Library, an artist–album listing system using Next.js, and Firebase.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197628/ccfm-1_ncgzhw.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197629/ccfm-2_eovnn6.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197629/ccfm-3_h0fr4j.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757197634/ccfm-4_ei9ywk.jpg"
+      ],
+      "link": "https://www.ccfm.org.za/",
+      "linkLabel": "ccfm.org.za"
     }
   ],
   "Own Projects": [
     {
-      "name": "Portfolio Website",
-      "description": "My personal portfolio built with Next.js.",
-      "images": ["/images/projects/genius.jpg"],
-      "link": "https://example.com",
-      "linkLabel": "Portfolio"
+      "name": " Personal portfolio",
+      "description": "Developed personal portfolio using Next.js to showcase skills and projects. ",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757196530/kval-1_amppye.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757196534/kval-2_chktjc.jpg"
+      ],
+      "link": "https://kval.vercel.app/",
+      "linkLabel": "kval.vercel.app"
     },
     {
-      "name": "Startup MVP",
-      "description": "Prototype for a SaaS product.",
-      "images": ["/images/projects/genius.jpg"]
+      "name": " Kditor - A Code Editor",
+      "description": "Built Kditor, a real-time collaborative code editor using React and Firebase Realtime Database.",
+      "images": [
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757196270/kditor-1_txeb1g.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757196526/kditor-2_cmamta.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757196527/kditor-3_m7uado.jpg",
+        "https://res.cloudinary.com/di1gnpezc/image/upload/v1757196528/kditor-4_zrjihy.jpg"
+      ],
+      "link": "https://kditor.vercel.app/",
+      "linkLabel": "kditor.vercel.app"
     }
   ]
 }
