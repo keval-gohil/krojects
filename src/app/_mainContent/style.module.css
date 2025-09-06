@@ -59,14 +59,14 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    /* allows wrapping to the next row */
     gap: 20px;
-    row-gap: 30px;
+    background: red;
 }
 
 .card {
     flex: 1 1 calc(20% - 20px);
     /* 5 per row by default */
+    max-width: calc(20% - 0px);
     display: flex;
     flex-direction: column;
 
@@ -263,6 +263,7 @@
 @media (max-width: 1400px) {
     .card {
         flex: 1 1 calc(25% - 20px);
+        max-width: calc(25% - 0px);
     }
 }
 
@@ -270,6 +271,7 @@
 @media (max-width: 1000px) {
     .card {
         flex: 1 1 calc(33.33% - 20px);
+        max-width: calc(33.33% - 0px);
     }
 }
 
@@ -277,6 +279,7 @@
 @media (max-width: 700px) {
     .card {
         flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 0px);
     }
 
     .main header h1 {
@@ -296,10 +299,6 @@
         margin-top: 3rem;
         margin-bottom: 1.7rem;
         font-size: 1.1rem;
-    }
-
-    .grid {
-        gap: 17px;
     }
 
     .card-title {
@@ -345,6 +344,7 @@
 @media (max-width: 500px) {
     .card {
         flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 0px);
     }
 
     .cardImage {
